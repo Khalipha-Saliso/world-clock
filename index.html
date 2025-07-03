@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>World Clock</title>
+</head>
+<body>
+  <div class="container">
+    <h1>World Clock</h1>
+
+    <select id="citySelector">
+      <option value="">Select a city..</option>
+      <option value="Asia/Tokyo">Tokyo</option>
+      <option value="Europe/London">London</option>
+      <option value="Australia/Sydney">Sydney</option>
+      <option value="current">Current Location</option>
+    </select>
+
+    <div id="clocksContainer"></div>
+
+    <button class="refresh-button" onclick="location.reload()">Refresh</button>
+    <br>
+    <footer>
+        This World Clock project was coded by 
+        <a href="https://github.com/Khalipha-Saliso">Khalipha Saliso</a>,
+        open-sourced on
+        <a href="https://github.com/Khalipha-Saliso/world-clock">GitHub</a>
+        and hosted on
+        <a href="https://worldtimeengine.netlify.app/">Netlify</a>.
+      </footer>    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

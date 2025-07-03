@@ -1,0 +1,105 @@
+body {
+    background-color: #fff0f5;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+
+  .clock {
+    padding: 15px 0;
+    border-top: 1px dashed #ddd;
+  }
+
+  .clock:first-of-type {
+    border-top: none;
+  }
+
+  .city-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+
+  .time {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .am-pm {
+    font-size: 16px;
+    vertical-align: super;
+    margin-left: 5px;
+  }
+
+  .refresh-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #f8a9c3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+
+  .refresh-button:hover {
+    background-color: #f18bb2;
+  }
+
+  footer {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    line-height: 1.6;
+  }
+
+  footer a {
+    color: #f18bb2;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
