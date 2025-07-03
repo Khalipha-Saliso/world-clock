@@ -6,29 +6,20 @@
     <title>World Clock - Khali Saliso</title>
 </head>
 <body>
-  <h1>World Clock Engine</h1>
+  <h1>World Clock</h1>
 
-  <h2>Your Current Location Time</h2>
-  <div id="local-time" class="clock">
-  
-  </div>
-
-  <h2>World Times</h2>
+  <label for="city-select">Select a city..</label>
   <select id="city-select">
-    <option value="America/New_York">New York</option>
-    <option value="Europe/London">London</option>
-    <option value="Asia/Tokyo">Tokyo</option>
+    <option value="">Select a city..</option>
   </select>
 
-  <div id="selected-city-time" class="clock"></div>
+  <div id="clocks"></div>
 
-  <h2>Fixed Clocks</h2>
-  <div id="clock-ny" class="clock"></div>
-  <div id="clock-london" class="clock"></div>
-  <div id="clock-tokyo" class="clock"></div>
-
-  <a href="index.html" class="link-home">Back to Homepage</a>
-  
+  <div id="user-clock">
+    <h2>Your Location</h2>
+    <p class="user-date"></p>
+    <p class="user-time"></p>
+  </div>
     <footer>
         Coded By
         <a href="https://github.com/Khalipha-Saliso" target="_blank">
