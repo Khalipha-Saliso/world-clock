@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  select {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1em;
+  }
+  .city {
+    margin-bottom: 30px;
+  }
+  .flag {
+    font-size: 1.2em;
+    margin-left: 5px;
+  }
+  .date, .time {
+    margin: 2px 0;
+  }

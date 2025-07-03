@@ -8,17 +8,26 @@
 <body>
   <h1>World Clock</h1>
 
-  <label for="city-select">Select a city..</label>
-  <select id="city-select">
-    <option value="">Select a city..</option>
-  </select>
+  <label for="city-select">
+    <select id="city-select">
+      <option>Select a city...</option>
+      <option value="los-angeles">Los Angeles</option>
+      <option value="sydney">Sydney</option>
+      <option value="new-york">New York</option>
+      <option value="london">London</option>
+    </select>
+  </label>
 
-  <div id="clocks"></div>
+  <div class="city">
+    <h2>Los Angeles <span class="flag">🇺🇸</span></h2>
+    <div class="date">August 15th 2022</div>
+    <div class="time">1:48:15 AM</div>
+  </div>
 
-  <div id="user-clock">
-    <h2>Your Location</h2>
-    <p class="user-date"></p>
-    <p class="user-time"></p>
+  <div class="city">
+    <h2>Sydney <span class="flag">🇦🇺</span></h2>
+    <div class="date">August 15th 2022</div>
+    <div class="time">1:48:15 AM</div>
   </div>
     <footer>
         Coded By
