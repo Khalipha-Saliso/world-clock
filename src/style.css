@@ -1,23 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-  }
-  h1 {
-    font-size: 2em;
-    font-weight: bold;
-  }
-  select {
-    margin-bottom: 20px;
-    padding: 5px;
-    font-size: 1em;
-  }
-  .city {
-    margin-bottom: 30px;
-  }
-  .flag {
-    font-size: 1.2em;
-    margin-left: 5px;
-  }
-  .date, .time {
-    margin: 2px 0;
-  }
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-bottom: 25px;
+}
+
+.city-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.city-row:last-child {
+  border-bottom: none;
+}
+
+.city-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.city-name {
+  font-weight: bold;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  margin-left: 5px;
+  font-size: 1.2em;
+}
+
+.date {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 4px;
+}
+
+.time {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.ampm {
+  font-size: 0.8em;
+  vertical-align: top;
+  margin-left: 2px;
+}
