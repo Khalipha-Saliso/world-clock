@@ -6,20 +6,42 @@
     <title>World Clock - Khali Saliso</title>
 </head>
 <body>
-    <h1>World Clock </h1>
+  <h1>World Clock Engine</h1>
+
+  <h2>Your Current Location Time</h2>
+  <div id="local-time" class="clock">
+  
+  </div>
+
+  <h2>World Times</h2>
+  <select id="city-select">
+    <option value="America/New_York">New York</option>
+    <option value="Europe/London">London</option>
+    <option value="Asia/Tokyo">Tokyo</option>
+  </select>
+
+  <div id="selected-city-time" class="clock"></div>
+
+  <h2>Fixed Clocks</h2>
+  <div id="clock-ny" class="clock"></div>
+  <div id="clock-london" class="clock"></div>
+  <div id="clock-tokyo" class="clock"></div>
+
+  <a href="index.html" class="link-home">Back to Homepage</a>
+  
     <footer>
         Coded By
-        <a href="#" target="_blank">
+        <a href="https://github.com/Khalipha-Saliso" target="_blank">
           Khalipha Saliso</a
         >
         and hosted on
         <a
-          href="#"
+          href="https://github.com/Khalipha-Saliso/world-clock"
           target="_blank"
           >GitHub</a
         >,
         <a
-          href="#"
+          href="https://worldclockengine.netlify.app/"
           target="_blank"
           >Netlify</a
         >
